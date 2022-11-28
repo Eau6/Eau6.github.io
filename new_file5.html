@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>More Questions</title>
+		<style>
+			h1#h1{
+				position: absolute;
+				top:150px;
+				left:600px;
+			}
+		    .detail{
+				border: aqua;
+				
+			}
+			        </style>
+			<style type="text/css">
+			.body{background:aliceblue;}
+			.a{
+			    position: absolute;
+				left:600px;
+				top:380px;}
+			#box{
+				display:none;
+				width:380px;
+				height:50px;
+				background:aliceblue;
+				border:1px solid.white;
+				padding:1px;
+				text-align:center;
+				position: absolute;
+				left: 600px;
+				top:400px;
+			}
+			.b{
+				position: absolute;
+			}
+			
+		
+			</style>
+					</head>
+			<body>
+		<div class="detail">
+			<img src="https://raw.githubusercontent.com/Eau6/Tasks/main/background_QA.png" width="100%" height="100%">
+		</div>
+	<div>
+		<h1 id="h1">More Questions</h1>
+		<a href="#" onmouseover="display()" onmouseout="disappear()">
+			1.什么是Geek（极客）？Geek精神又是什么？
+		</a><br>
+		<a href="#" onmouseover="display()" onmouseout="disappear()">
+			2.招新是安排在什么时间？
+		</a>
+		<div id="box" onmouseover="display()" onmouseout="disappear()">
+			拥有好奇之心，改变之力，爱钻研，能折腾。
+			按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年会有一些改动，笔试地 点一般在9号教学楼。 如果想要了解我们，可以加入我们的QQ群，招新具体的安排/变动会在招新群通知。
+		</div>
+		<script type="text/javascript" language="JavaScript">
+			function display(){
+				document.getElementById("box").style.display="block";
+			}
+			function disappear(){
+				document.getElementById("box").style.display="none";
+			}
+		</script>
+	</body>
+</html>

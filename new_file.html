@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html long="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+        <link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="./border-style.css">
+		<link rel="stylesheet" href="box-model.css">
+        <title>Geek招新</title>
+    </head>
+	<body>
+   <style> *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: "Poppins",sans-serif;
+    }
+    .container{
+     background-color: white;
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     align-items: baseline;
+     justify-content: center;
+    }
+    </style>
+    <div class="container">
+        <nav>
+            <UL>
+            <li><a herf="">Introduction</a></li>
+            <li>About Us</li>
+            <li>New Thread</li>
+            <li>Contact Us</li>
+            <li>Q&A</li>
+            </UL>
+        </nav>
+    </div> 
+    <style>
+        nav{
+            background-color: darkorange;
+            border-radius: 50px;
+            padding-top:0;
+			margin:0;
+            box-shadow: 0 25px 20px -20px white;
+
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            padding:13px 35px;
+            margin: 8px;
+            font-size: 18px;
+            font-weight: 500;
+            color:white;
+            cursor: pointer;
+            z-index: 2;
+            transition: color 0.2s;
+        }
+       nav ul li:hover{
+            color:gray;
+        }
+        nav ul li:hover::after{
+            top:50%;
+            opacity: 1;
+        }
+    </style>
+	<div>
+	<div class="aa">
+		<img src="\background_Homepage.png"" width="1500" height="1000">
+		</div>
+	<div class="bb">
+		<img src="https://raw.githubusercontent.com/Eau6/Tasks/main/decoration_Geek.png" width="500" height="300">
+		</div>
+		<style>
+			.aa{
+				position: absolute;
+				z-index:1;
+				top:75px;
+			}
+			.bb{
+				position:absolute;
+				z-index:2;
+				left:550px;
+				top:150px;
+			}
+		</style>
+		</div>
+
+   </body>
+    </html>
